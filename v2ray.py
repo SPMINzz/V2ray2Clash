@@ -1,7 +1,7 @@
 
 # 说明 : 本脚本提供解析v2ray订阅链接为Clash配置文件的自动化,供学习交流使用.
 # 参数 :
-#     1. url=订阅地址
+#     1. url=ssr://dmlwMjMwLmlncG9wLmNsdWI6MjMwMzE6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOmh0dHBfc2ltcGxlOk1USXpjWGRsWkdoWVNsQTNOVEl3TmcvP3JlbWFya3M9VmtsUU1qTXdMVEl6TURNeCZwcm90b3BhcmFtPSZvYmZzcGFyYW09
 #     2. user_path=用户~的路径[cd ~  -> pwd 查看]
 #     3. net_config=规则策略.
 # Linux自动化更新订阅:
@@ -11,7 +11,7 @@
 #     - Arch系也可通过:[cron表达式] systemctl restart clash.service[需自行设置]设置定时任务.在更新订阅后重启Clash-linux 
 
 #属性
-url = '订阅地址'
+url = 'ssr://dmlwMjMwLmlncG9wLmNsdWI6MjMwMzE6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOmh0dHBfc2ltcGxlOk1USXpjWGRsWkdoWVNsQTNOVEl3TmcvP3JlbWFya3M9VmtsUU1qTXdMVEl6TURNeCZwcm90b3BhcmFtPSZvYmZzcGFyYW09'
 user_path = '用户~目录'
 net_config = 'https://raw.githubusercontent.com/Roiocam/V2ray2Clash/master/config.yaml'
 #原配置文件地址 = 'https://raw.githubusercontent.com/ConnersHua/Profiles/master/Clash/Pro.yaml'
